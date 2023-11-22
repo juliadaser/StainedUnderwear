@@ -4,11 +4,11 @@
 This project aims to highlight the amount of time, resources and labour one spends coping with menstruation.
 Pepi collected the number of times in which they scrubbed individual underwear stained with menstrual blood over the course of 11 days.
 
-<img width="1361/8" alt="Screenshot 2023-11-18 at 8 56 01 PM" src="https://github.com/juliadaser/StainedUnderwear/assets/73170145/22bc6cb8-ad5f-41a4-b6df-617c0bb21348">
+<img width="400px" alt="Screenshot 2023-11-18 at 8 56 01 PM" src="https://github.com/juliadaser/StainedUnderwear/assets/73170145/22bc6cb8-ad5f-41a4-b6df-617c0bb21348">
 
 We will be physicalizing this data by building a robotic arm that continuously scrubs a pair of underwear in real-time, according to the data.
 
-<img width="1440/8" alt="Screenshot 2023-11-18 at 10 05 05 PM" src="https://github.com/juliadaser/StainedUnderwear/assets/73170145/f4e4b9a3-f78e-46ea-ac51-a0307152fbc8">
+<img width="400px" alt="Screenshot 2023-11-18 at 10 05 05 PM" src="https://github.com/juliadaser/StainedUnderwear/assets/73170145/f4e4b9a3-f78e-46ea-ac51-a0307152fbc8">
 
 
 We will be creating a web interface that shows a digital clock with the clock running in real time and the dates at which Pepi washed their underwear. The robotic arm will start scrubbing whenever it reached the time at which Pepi washed their underwear according to the data. The dates would be in real-time, to show the ongoing and never-ending labor that is expended on washing one’s stained, bloody underwear. The project will last 11 days- the number of days in which Pepi washed their underwear.
