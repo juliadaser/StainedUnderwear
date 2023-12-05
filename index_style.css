@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&display=swap');
+
 body {
   background-color: powderblue;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
 }
 
 h1 {
@@ -8,5 +14,28 @@ h1 {
 
 .large_button {
   margin: 2%;
-  padding: 10%;
+  /* padding: 10%; */
+}
+
+.render{
+  width: 100%; 
+  position: absolute;
+}
+
+#current-date{
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+  font-weight: 400; 
+  transform: rotate(-3deg) translate(640px, 310px);
+}
+
+#current-time{
+  color: red;
+  position: absolute; 
+  font-size: 30px;
+  color: white; 
+  font-weight: 400; 
+  transform: rotate(-3deg) translate(632px, 330px);
 }
