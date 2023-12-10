@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About the project</title>
+ <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index_style.css"/>
+</head>
+
+<body style = "color: white; margin: 50px;">
+    <a style = "color: rgb(215, 187, 187); font-size: 14px;" class = 'links' href = "index.html"> ← home</a>
+    <a style = "color: rgb(215, 187, 187); font-size: 14px; margin-left: 89%;" class = 'aboutLivestream links' href = "livestream.html">livestream →</a>
+    <h1 style = "color: white; margin-top: 60px;">Stained Underwear</h1>
+    <h3 style = "font-weight: 400;">Julia Daser and Pepi Ng</h3>
+    <p style = 'font-style: italic; font-size: 13px; color: rgb(167, 167, 167);'>Arduino, 3D filament, motors, air pumps, web, Twitch for livestreaming</p>
+    
+
+    <div class = "abstract">
+        “Stained Underwear” sheds light on the often hidden and stigmatized inconveniences people face throughout their lifetime because of menstruation. We want to visualize the labor, time and resources menstruating people have to invest into periods by documenting Pepis’ individual experience. In the larger picture, we aim to reclaim the power of the body, flesh and blood of menstruation against the existing patriarchal structures that we live in today by proudly taking ownership of this under discussed topic.
+    </div>
+
+    <img class = "aboutImage" src = "images/testImage.png">
+
+    <h2 style = "margin-top: 60px;"> How it works</h2>
+
+    <div style = "display: flex; flex-direction: row;">
+        <div style = "flex: 1;"> 
+            <p style = 'line-height: 30px;'>Our open-source, mixed-media performative installation physicalizes Pepi’s data - the number of times in which they have to scrub their underwear stained with period blood in order to get the stains out during their irregular, 11-day-long menstruation. Pepi’s data will be uploaded to a web server, nPoint. This data would then be used in the form of an API in the <a style = 'color: rgb(0, 208, 255)' href = "index.html">home page</a>. 
+                <br><br>
+                Whenever it reaches the specific time and date as shown in Pepi’s dataset, a robotic arm starts moving and scrubbing the respective number of times. There will be a live stream of this robotic arm over the course of 11 days- the same number of days in which Pepi had to scrub their underwear for during one menstrual cycle. 
+                After 11 days, when Pepi’s data is visualized, we will open up the database for other people’s experiences with scrubbing their blood stained underwear. People will be able to enter their data on the n-point database. 
+                <br><br>
+                Our website can then access this data and start visualizing the experiences of menstruating people from all over the world. The code, hardware and software instructions are ready, available and accessible below for whoever wishes to create their own version of this project. We hope that by making this project accessible to the public, more people would be able to be empowered to physicalize and share their own period data as well. This fulfills our goals of highlighting the untold labor that goes into coping with menstruation as well as destigmatizing menstruation.
+            </p>
+            <br><br>
+            <a style = "color: rgb(0, 208, 255)" href = "https://github.com/juliadaser/StainedUnderwear.git">Link to our github repo here</a>
+        </div>
+        <div style = "flex: 1">
+            <div style = 'margin-left: 15%;'>
+                <p style = "width: 90%" class = "imgDesc">Data collected by Pepi documenting the number of times they scrubbed their stained underwear over 11 days</p>
+                <img style = 'width: 90%' src = "images/data.png">
+
+                <p style = "width: 90%; margin-top: 50px;" class = "imgDesc">Our first robotic arm prototype!</p>
+                <img class = "aboutImage" style = 'width: 90%' src = "images/testImage.png">
+            </div>
+            
+        </div>
+    </div>
+
+
+</body>
+
+</html>
