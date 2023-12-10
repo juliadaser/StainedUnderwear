@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&display=swap');
 
 body {
-  background-color: powderblue;
+  background-color: rgb(35, 35, 35);
   padding: 0px;
   margin: 0px;
   font-family: "Helvetica Neue";
   font-style: normal;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 h1 {
@@ -38,4 +44,60 @@ h1 {
   color: white; 
   font-weight: 400; 
   transform: rotate(-3deg) translate(632px, 330px);
+}
+
+.about{
+  font-size: 15px;
+  position: absolute;
+  transform: translate(878%, 2900%);
+  background-color: rgb(255, 227, 124);
+  padding: 2px;
+  /* border-radius: 5px; */
+}
+
+.livestream{
+  font-size: 15px;
+  position: absolute;
+  transform: translate(1080%, 3060%);
+  background-color: rgb(255, 227, 124);
+  padding: 2px;
+}
+
+.about:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+.livestream:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+.abstract{
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.aboutImage{
+  width: 50%;
+}
+
+.aboutLinks{
+  color: white;
+}
+
+.aboutLivestream{
+  right: 0px;
+}
+
+.imgDesc{
+  font-style: italic;
+  font-size: 13px;
+  color: rgb(202, 202, 202);
+}
+
+.links:hover{
+  background-color: red;
 }
