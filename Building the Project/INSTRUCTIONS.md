@@ -15,6 +15,8 @@ Materials list:
 
 To get started, 3D print the robot-arm parts, the sink, the faucet and the brush-holder part. You can find all the 3D printing files in the "Building the Project" - "3d print" folder. 
 
+We followed this tutorial to assemble the robotic arm: https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/
+
 
 
 
